@@ -1,0 +1,23 @@
+[project]
+name = "data-scraping-states"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Emily Riederer", email = "emilyriederer@gmail.com"},
+]
+dependencies = [
+    "requests>=2.31.0",
+    "playwright>=1.42.0",
+    "pandas>=2.2.1",
+    "pytesseract>=0.3.10",
+    "opencv-python>=4.9.0.80",
+    "beautifulsoup4>=4.12.3",
+    "ipykernel>=6.29.4",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

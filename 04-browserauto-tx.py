@@ -28,6 +28,7 @@ def retrieve_date(date, page):
 with sync_playwright() as p:
 
   browser = p.firefox.launch()
+  # want to see it in action? Switch to firefox.launch(headless=False, slow_mo=50)
   context = browser.new_context(accept_downloads = True)
   page = context.new_page()
   

@@ -14,8 +14,6 @@ def retrieve_county(county, page):
   county_records = []
 
   for n in range(1,75):
-
-    print(n)
   
     # extract values from chart tooltip
     selector = f'#timeline g.popovers rect:nth-of-type({n})'
